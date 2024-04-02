@@ -2714,5 +2714,6 @@
 
 @SolidClass color(204 204 204) = func_trampoline : "Brush entity that makes any (moveable) entity bounce!" 
 [
-	impulse(float) : "Bounciness (<1 = energy loss | >1 = energy gain)" : "1"
+	dmg(float) : "Bounciness (<1 = energy loss | >1 = energy gain)" : 1
+	impulse(float) : "View punch intensity" : 1
 ]
